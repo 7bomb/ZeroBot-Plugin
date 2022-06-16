@@ -25,17 +25,17 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager" // 群管
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager" // 群管
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus" // 词典匹配回复
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus" // 词典匹配回复
 
-	//_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
+	// _ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -55,7 +55,7 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"       // 服务器监控
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"       // 服务器监控
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"         // 随机老婆
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"            // base16384加解密
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"          // 百度一下
@@ -67,7 +67,7 @@ import (
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"   // 说抽象话
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"          // 三次元小姐姐
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"  // 漂流瓶
@@ -138,7 +138,7 @@ import (
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/curse" // 骂人
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_reply" // 人工智能回复
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_reply" // 人工智能回复
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -202,7 +202,7 @@ func init() {
 
 	// 通过代码写死的方式添加主人账号
 	sus = append(sus, 2971533238)
-	//sus = append(sus, 2971533238)
+	// sus = append(sus, 2971533238)
 
 	if *runcfg != "" {
 		f, err := os.Open(*runcfg)
