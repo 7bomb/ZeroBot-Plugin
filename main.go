@@ -56,7 +56,7 @@ import (
 	//                               vvvv                               //
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"       // 服务器监控
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"         // 随机老婆
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"         // 随机老婆
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"            // base16384加解密
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"          // 百度一下
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"       // 查询b站用户信息
@@ -66,9 +66,9 @@ import (
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"         // 选择困难症帮手
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"   // 说抽象话
 
-	 _ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"          // 三次元小姐姐
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser" // 三次元小姐姐
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"  // 漂流瓶
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"      // 合成emoji
